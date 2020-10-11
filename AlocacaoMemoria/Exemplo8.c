@@ -13,7 +13,7 @@ int main( int argc, const char* argv[] )
     printf ("Somando 60 bytes no endereco armazenado %d\n", p);
 
     p = p - 3;
-    printf ("Subtraindo 15 bytes no endereco armazenado %d\n", p);
+    printf ("Subtraindo 12 bytes no endereco armazenado %d\n", p);
 
     return 0;
 }
