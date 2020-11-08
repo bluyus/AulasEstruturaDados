@@ -17,18 +17,19 @@ public class ArvoreBinaria {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        No arvore = new No(4);
-        arvore.AdicionarNo(arvore, 2);
-        arvore.AdicionarNo(arvore, 6);
-        arvore.AdicionarNo(arvore, 1);
-        arvore.AdicionarNo(arvore, 3);
-        arvore.AdicionarNo(arvore, 5);
-        arvore.AdicionarNo(arvore, 7);
+                
+        No raiz = new No(4);
+        Arvore.AdicionarNo(raiz, 2);
+        Arvore.AdicionarNo(raiz, 6);
+        Arvore.AdicionarNo(raiz, 1);
+        Arvore.AdicionarNo(raiz, 3);
+        Arvore.AdicionarNo(raiz, 5);
+        Arvore.AdicionarNo(raiz, 7);
         
-        //arvore.EmOrdem(arvore);
-        //arvore.PreOrdem(arvore);
-        //arvore.EmNivel(arvore);
-        arvore.PosOrdem(arvore);
+        Arvore.EmOrdem(raiz);
+        Arvore.PreOrdem(raiz);
+        Arvore.EmNivel(raiz);
+        Arvore.PosOrdem(raiz);
     }
     
 }
